@@ -32,6 +32,20 @@ public class javaNumbers {
 		int numPrime = check.nextInt();
 		
 		
+		if(numPrime==0&&numPrime==1) {
+			System.out.println("The number is not compatible");
+		}
+		else {
+			for(int i=1;i<9;i++) {
+				if(numPrime%i==0) {
+					System.out.println("The Number is not a Prime");
+				}
+				else {
+					System.out.println("The Number is Prime");
+				}
+			}
+		}
+		
 
 	}
 
