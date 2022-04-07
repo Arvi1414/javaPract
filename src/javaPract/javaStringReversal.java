@@ -44,9 +44,7 @@ public class javaStringReversal {
 		String revNum = "";
 		
 		for(int i=length2-1;i>=0;i--) {
-			
 			revNum += numStr.charAt(i);
-			
 		}
 		
 		System.out.println("");
@@ -59,9 +57,7 @@ public class javaStringReversal {
 			System.out.println("The given number is not a Palindrome");
 		}
 		
-			
-		
-		
 	}
+	
 
 }

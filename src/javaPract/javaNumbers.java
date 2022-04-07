@@ -31,7 +31,7 @@ public class javaNumbers {
 		
 		int numPrime = check.nextInt();
 		
-		
+		int m=numPrime/2;
 		if(numPrime==0&&numPrime==1) {
 			System.out.println("The number is not compatible");
 		}
@@ -46,7 +46,19 @@ public class javaNumbers {
 			}
 		}
 		
-
+		
+		//Armstrong Number 
+		
+		Scanner armCheck = new Scanner(System.in);
+		
+		int num = armCheck.nextInt();
+		
+		int temp;
+		
+		temp = num%10;
+		
+		
+	
 	}
 
 }
